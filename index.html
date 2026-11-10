@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Mell Peçanha, desenvolvedora Full Stack com foco em TypeScript, Node.js e APIs REST." />
+  <title>Mell Peçanha — Desenvolvimento Full Stack</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top">mell peçanha</a>
+    <nav aria-label="Navegação principal" data-i18n-aria="nav-label"><a href="#projetos" data-i18n="nav-projects">projetos</a><a href="#sobre" data-i18n="nav-about">sobre</a><a href="#contato" data-i18n="nav-contact">contato</a></nav>
+    <div class="header-actions"><a href="https://github.com/MellPecanha" target="_blank" rel="noreferrer" aria-label="GitHub da Mell Peçanha">github</a><a href="https://linkedin.com/in/mellpecanha" target="_blank" rel="noreferrer" aria-label="LinkedIn da Mell Peçanha">linkedin</a><button class="language-toggle" type="button" aria-label="Mudar idioma">EN</button><button class="theme-toggle" type="button" aria-label="Ativar modo escuro"><span aria-hidden="true">◐</span></button></div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu"><span></span><span></span></button>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="intro-label" data-i18n="hero-eyebrow">Mell Peçanha · dev full stack</p>
+        <h1 id="hero-title" data-i18n-html="hero-title">desenvolvimento<br /><strong>Full Stack.</strong></h1>
+        <p class="hero-intro" data-i18n="hero-intro">Desenvolvedora com foco em backend, experiência em APIs REST, regras de negócio, autenticação e aplicações web de ponta a ponta.</p><a class="text-link" href="#projetos"><span data-i18n="hero-cta">conheça meus projetos</span> <b>↘</b></a>
+      </div>
+      <figure class="portrait-wrap"><img src="assets/mell-portrait.png" alt="Ilustração em preto e creme de Mell, de óculos e fones, segurando um cachorro" />
+        <figcaption>FULL STACK DEVELOPER</figcaption>
+      </figure>
+    </section>
+    <section id="projetos" class="work-section" aria-labelledby="work-title">
+      <div class="section-bar">
+        <h2 id="work-title" data-i18n="projects-eyebrow">Projetos em destaque</h2>
+        <p data-i18n="projects-note">Aplicações Full Stack, da regra de negócio ao deploy.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card card-cinevo">
+          <p class="project-meta">01 · FULL STACK</p>
+          <h3>Cinevo</h3>
+          <p data-i18n="cinevo-copy">Plataforma para consultar filmes e sessões, comprar ingressos e reservar assentos com controle de disponibilidade.</p>
+          <div class="project-tags"><span>TypeScript</span><span>Node.js</span><span>React</span></div><div class="project-links"><a href="http://cinevo.primellout.com" target="_blank" rel="noreferrer" aria-label="Abrir projeto Cinevo" data-i18n="project-link">ver projeto ↗</a><a href="https://github.com/MellPecanha/cinevo" target="_blank" rel="noreferrer" aria-label="Abrir código do Cinevo no GitHub" data-i18n="code-link">ver código ↗</a></div>
+        </article>
+        <article class="project-card card-resolve">
+          <p class="project-meta">02 · GESTÃO</p>
+          <h3>Resolve Aí</h3>
+          <p data-i18n="resolve-copy">Plataforma para registrar, priorizar e acompanhar ocorrências, responsáveis, comentários e todo o histórico.</p>
+          <div class="project-tags"><span>Express</span><span>React</span><span>PostgreSQL</span></div><div class="project-links"><a href="http://resolveai.primellout.com" target="_blank" rel="noreferrer" aria-label="Abrir projeto Resolve Aí" data-i18n="project-link">ver projeto ↗</a><a href="https://github.com/MellPecanha/resolve-ai" target="_blank" rel="noreferrer" aria-label="Abrir código do Resolve Aí no GitHub" data-i18n="code-link">ver código ↗</a></div>
+        </article>
+        <article class="project-card card-lab">
+          <p class="project-meta">03 · IA</p>
+          <h3>LabInsight</h3>
+          <p data-i18n="lab-copy">Aplicação em desenvolvimento para análise informativa de exames, com recuperação de informações e Machine Learning.</p>
+          <div class="project-tags"><span>Python</span><span>FastAPI</span><span>Streamlit</span></div><a href="https://github.com/MellPecanha/labinsight" target="_blank" rel="noreferrer" aria-label="Abrir repositório LabInsight" data-i18n="code-link">ver código ↗</a>
+        </article>
+      </div>
+    </section>
+    <section id="sobre" class="about-section" aria-labelledby="about-title">
+      <div>
+        <p class="section-kicker" data-i18n="about-eyebrow">SOBRE</p>
+        <h2 id="about-title" data-i18n-html="about-title">Oi, eu sou<br /><em>a Mell.</em></h2>
+      </div>
+      <div class="about-copy">
+        <p data-i18n="about-copy-1">Trabalho do backend à interface: APIs REST, autenticação, bancos relacionais e regras de negócio bem definidas.</p>
+        <p data-i18n="about-copy-2">Atualmente, aprofundo meus estudos em Inteligência Artificial na UNIVESP e em Full Stack Development na FIAP.</p><a class="text-link" href="#projetos"><span data-i18n="about-cta">ver projetos</span> <b>↘</b></a>
+      </div>
+      <ul class="skill-list" aria-label="Competências técnicas">
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>PostgreSQL</li>
+        <li>Docker</li>
+        <li>GitLab CI/CD</li>
+      </ul>
+    </section>
+    <section id="contato" class="contact" aria-labelledby="contact-title">
+      <p class="section-kicker" data-i18n="contact-eyebrow">04 · contato</p>
+      <h2 id="contact-title" data-i18n-html="contact-title">aberta a novas<br /><strong>oportunidades.</strong></h2>
+      <p data-i18n="contact-note">Ficou interessada no meu trabalho? Entre em contato.</p><a class="email-link" href="mailto:mellpecanha@gmail.com">mellpecanha@gmail.com ↗</a>
+    </section>
+  </main>
+  <footer><span>Americana, SP · Brasil</span><span>© 2026 Mell Peçanha</span><a href="#top" data-i18n="back-top">voltar ao topo ↑</a></footer>
+  <div class="mobile-menu" id="mobile-menu"><a href="#projetos" data-i18n="nav-projects">projetos</a><a href="#sobre" data-i18n="nav-about">sobre</a><a href="#contato" data-i18n="nav-contact">contato</a></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
